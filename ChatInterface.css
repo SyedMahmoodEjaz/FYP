@@ -1,0 +1,29 @@
+/* Running Character Animation */
+.running-character {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    background-color: #f3f4f6; /* Light gray background */
+    border-radius: 12px;
+  }
+  
+  .character {
+    width: 20px;
+    height: 20px;
+    background-color: #4f46e5; /* Indigo color */
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    animation: run 1.5s linear infinite;
+  }
+  
+  @keyframes run {
+    0% {
+      left: -20px;
+    }
+    100% {
+      left: 100%;
+    }
+  }
