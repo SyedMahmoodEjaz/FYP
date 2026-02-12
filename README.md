@@ -1,4 +1,3 @@
 # FYP
 AI driven learning platform
-a virtual classroom with a 3d avatar as a teacher, to teach about AI, model used is Llama with 70B parameters.
-we have used prompt engineering to make the model respond to the questions related to AI only. it can take query in form of text or speech and give a response in form of text or speech.
+3D Virtual AI Classroom: Llama 70B-powered teacher avatar delivers interactive AI lessons. Uses prompt engineering for AI-only responses. Handles text/speech input and output for engaging student queries. made using JS
